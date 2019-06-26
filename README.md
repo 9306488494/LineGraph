@@ -23,8 +23,10 @@ Third Step : Implement Layout
         android:id="@+id/graph" />
 
 Forth step : use the method 
-
+// for Line Graph
 LineG.GValue(val1,val2,val3,val4,val5,graphViewID);
+// For Bar Graph
+LineG.BarGraph(val1,val2,val3,val4,val5,graphViewid,spacing_betwen_graph,top_color_as_RED);
 
 so programe will be ;
 
