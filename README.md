@@ -24,4 +24,33 @@ Third Step : Implement Layout
 
 Forth step : use the method 
 
-LineG.GValue(String val1, String val2, String val3,String val4,String val5, GraphView graphID);
+LineG.GValue(val1,val2,val3,val4,val5,graphViewID);
+
+so programe will be ;
+
+
+public class Map extends AppCompatActivity {
+    String val1,val2,val3,val4,val5;
+    private GraphView graph;
+
+
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        graph = (GraphView) findViewById(R.id.graph);
+
+        val1="5";
+        val2="2";
+        val3="4";
+        val4="2";
+        val5="10";
+
+
+        LineG.GValue(val1, val2, val3,val4,val5, graph);
+
+
+    }
+}
+
