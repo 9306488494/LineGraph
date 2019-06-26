@@ -3,7 +3,7 @@ To use the Line graph just follow the following steps:
 First Step- Implement dependancy 
 
 	dependencies {
-	        implementation 'com.github.9306488494:LineGraph:0.1.0'
+	        implementation 'com.github.9306488494:LineGraph:0.1.1'
 	}
 
 Second Step :Implement Maven repository
