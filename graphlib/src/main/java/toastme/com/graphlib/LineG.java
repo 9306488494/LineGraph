@@ -28,7 +28,7 @@ public class LineG {
         graphID.addSeries(series);
     }
     // draw bar graph
-    public static void BarGraph(String val1, String val2, String val3,String val4,String val5, GraphView graphID,String spacing,String topColor) {
+    public static void BarGraph(String val1, String val2, String val3,String val4,String val5, GraphView graphID,String spacing) {
 
         BarGraphSeries<DataPoint> series = new BarGraphSeries<>(new DataPoint[]{
                 new DataPoint(0,Double.parseDouble(val1)),
@@ -51,7 +51,7 @@ public class LineG {
 
 // draw values on top
         series.setDrawValuesOnTop(true);
-        series.setValuesOnTopColor(Integer.parseInt("Color"+"."+topColor));
+        series.setValuesOnTopColor(Color.RED);
 //series.setValuesOnTopSize(50);
     }
 
